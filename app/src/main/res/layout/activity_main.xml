@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical"
+android:padding="22dp" android:background="@color/bg">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CHARACTER VOICE"
+android:textColor="@color/text" android:textSize="28sp" android:textStyle="bold"/>
+<TextView android:id="@+id/status" android:layout_width="match_parent" android:layout_height="wrap_content"
+android:layout_marginTop="10dp" android:textColor="@color/muted" android:text="Checking overlay permission..."/>
+<Button android:id="@+id/permissionBtn" android:layout_width="match_parent" android:layout_height="wrap_content"
+android:layout_marginTop="20dp" android:text="DISPLAY OVER OTHER APPS"/>
+<Button android:id="@+id/startBtn" android:layout_width="match_parent" android:layout_height="wrap_content"
+android:layout_marginTop="10dp" android:text="START FLOATING VOICE PANEL"/>
+<Button android:id="@+id/adminBtn" android:layout_width="match_parent" android:layout_height="wrap_content"
+android:layout_marginTop="28dp" android:text="ADMIN PANEL"/>
+</LinearLayout>
